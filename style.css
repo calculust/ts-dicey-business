@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+body { font-family: 'Roboto Mono', monospace; background-color:#d3d3d3; padding:10px; }
+
+#container { display:flex; flex-wrap: wrap; justify-content:flex-start;}
+
+.die { font-size: 100px; text-align:center; cursor:pointer; }
+
+.v1::after { content:'\2680'}
+.v2::after { content:'\2681'}
+.v3::after { content:'\2682'}
+.v4::after { content:'\2683'}
+.v5::after { content:'\2684'}
+.v6::after { content:'\2685'}
